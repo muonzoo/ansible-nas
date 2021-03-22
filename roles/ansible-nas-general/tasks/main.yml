@@ -1,6 +1,6 @@
 ---
 - name: Set login banner
-  copy:
+  template:
     src: motd.txt
     dest: /etc/motd
 
